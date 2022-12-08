@@ -5,6 +5,62 @@ The testing and evaluation code, with the corresponding weights, are released fo
 
 The full training code will be released once it has been accepted. 
 
+#### Requirements
+- Python 3.6
+- Pytorch 1.6.0
+- yacs
+- apex
+
+## Performance of AIM 
+<table>
+	<tr>
+	    <td > </td>
+	    <td colspan="4" align="center">RRCC</td>
+	    <td colspan="4" align="center">LTCC</td>
+	</tr >
+	<tr >
+      <td>   </td>
+	    <td colspan="2" align="center"> Standard</td>
+      <td colspan="2" align="center"> Cloth-Changing</td>
+	    <td colspan="2" align="center"> Standard</td>
+      <td colspan="2" align="center"> Cloth-Changing</td>
+	</tr>
+	<tr>
+	    <td> </td>
+      <td>R@1</td>
+      <td>mAP</td>
+      <td>R@1</td>
+      <td>mAP</td>
+      <td>R@1</td>
+      <td>mAP</td>
+      <td>R@1</td>
+      <td>mAP</td>
+	</tr>
+	<tr>
+	    <td>Paper</td>
+      <td>100.0</td>
+      <td>99.9</td>
+      <td>57.9</td>
+      <td>58.3</td>
+      <td>76.3</td>
+      <td>41.1</td>
+      <td>40.6</td>
+      <td>19.1</td>
+	</tr>
+	<tr>
+	    <td>Repo</td>
+      <td>100.0</td>
+      <td>99.8</td>
+      <td>58.2</td>
+      <td>58.0</td>
+      <td>75.9</td>
+      <td>41.7</td>
+      <td>40.8</td>
+      <td>19.2</td>
+	</tr>
+</table>
+The indicators provided in this repo are broadly the same as those in the paper, and possibly even better (depending on what your focous is)
+
 ## Datasets
 PRCC is avaiable at https://drive.google.com/file/d/1yTYawRm4ap3M-j0PjLQJ--xmZHseFDLz/view  
 
