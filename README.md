@@ -6,7 +6,7 @@ The testing and evaluation code, with the corresponding weights, are released fo
 The full training code will be released once it has been accepted. 
 
 ## Datasets
-PRCC is avaiable at https://drive.google.com/file/d/1yTYawRm4ap3M-j0PjLQJ--xmZHseFDLz/view
+PRCC is avaiable at https://drive.google.com/file/d/1yTYawRm4ap3M-j0PjLQJ--xmZHseFDLz/view 
 LTCC is avaiable at https://naiq.github.io/LTCC_Perosn_ReID.html
 
 ## Testing
